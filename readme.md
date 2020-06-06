@@ -42,6 +42,10 @@
   - [12-별찍기,2522번.py](https://github.com//Kimdonghyeon7645/Problem-Solving/blob/master/%EB%AC%B8%EC%A0%9C%EC%A7%912-%EB%B3%84%EC%B0%8D%EA%B8%B0/12-%EB%B3%84%EC%B0%8D%EA%B8%B0%2C2522%EB%B2%88.py)
   - [13-별찍기,2523번.py](https://github.com//Kimdonghyeon7645/Problem-Solving/blob/master/%EB%AC%B8%EC%A0%9C%EC%A7%912-%EB%B3%84%EC%B0%8D%EA%B8%B0/13-%EB%B3%84%EC%B0%8D%EA%B8%B0%2C2523%EB%B2%88.py)
   - [14-별찍기,2526번.py](https://github.com//Kimdonghyeon7645/Problem-Solving/blob/master/%EB%AC%B8%EC%A0%9C%EC%A7%912-%EB%B3%84%EC%B0%8D%EA%B8%B0/14-%EB%B3%84%EC%B0%8D%EA%B8%B0%2C2526%EB%B2%88.py)
+  - [15-별찍기,10990번.py](https://github.com//Kimdonghyeon7645/Problem-Solving/blob/master/%EB%AC%B8%EC%A0%9C%EC%A7%912-%EB%B3%84%EC%B0%8D%EA%B8%B0/15-%EB%B3%84%EC%B0%8D%EA%B8%B0%2C10990%EB%B2%88.py)
+  - [16-별찍기,10991번.py](https://github.com//Kimdonghyeon7645/Problem-Solving/blob/master/%EB%AC%B8%EC%A0%9C%EC%A7%912-%EB%B3%84%EC%B0%8D%EA%B8%B0/16-%EB%B3%84%EC%B0%8D%EA%B8%B0%2C10991%EB%B2%88.py)
+  - [17-별찍기,10992번.py](https://github.com//Kimdonghyeon7645/Problem-Solving/blob/master/%EB%AC%B8%EC%A0%9C%EC%A7%912-%EB%B3%84%EC%B0%8D%EA%B8%B0/17-%EB%B3%84%EC%B0%8D%EA%B8%B0%2C10992%EB%B2%88.py)
+
 
 </details>
 
