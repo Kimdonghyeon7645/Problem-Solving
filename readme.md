@@ -38,4 +38,14 @@
   - [09-별찍기,2446번.py](https://github.com//Kimdonghyeon7645/Problem-Solving/blob/master/%EB%AC%B8%EC%A0%9C%EC%A7%912-%EB%B3%84%EC%B0%8D%EA%B8%B0/09-%EB%B3%84%EC%B0%8D%EA%B8%B0%2C2446%EB%B2%88.py)
   - [10-별찍기(다른풀이)-시에르핀스키 카펫,2447번.py](https://github.com//Kimdonghyeon7645/Problem-Solving/blob/master/%EB%AC%B8%EC%A0%9C%EC%A7%912-%EB%B3%84%EC%B0%8D%EA%B8%B0/10-%EB%B3%84%EC%B0%8D%EA%B8%B0(%EB%8B%A4%EB%A5%B8%ED%92%80%EC%9D%B4)-%EC%8B%9C%EC%97%90%EB%A5%B4%ED%95%80%EC%8A%A4%ED%82%A4%20%EC%B9%B4%ED%8E%AB%2C2447%EB%B2%88.py)
   - [10-별찍기-시에르핀스키 카펫,2447번.py](https://github.com//Kimdonghyeon7645/Problem-Solving/blob/master/%EB%AC%B8%EC%A0%9C%EC%A7%912-%EB%B3%84%EC%B0%8D%EA%B8%B0/10-%EB%B3%84%EC%B0%8D%EA%B8%B0-%EC%8B%9C%EC%97%90%EB%A5%B4%ED%95%80%EC%8A%A4%ED%82%A4%20%EC%B9%B4%ED%8E%AB%2C2447%EB%B2%88.py)
+  - [11-별찍기-시에르핀스키 삼각형,2448번.py](https://github.com//Kimdonghyeon7645/Problem-Solving/blob/master/%EB%AC%B8%EC%A0%9C%EC%A7%912-%EB%B3%84%EC%B0%8D%EA%B8%B0/11-%EB%B3%84%EC%B0%8D%EA%B8%B0-%EC%8B%9C%EC%97%90%EB%A5%B4%ED%95%80%EC%8A%A4%ED%82%A4%20%EC%82%BC%EA%B0%81%ED%98%95%2C2448%EB%B2%88.py)
+  - [12-별찍기,2522번.py](https://github.com//Kimdonghyeon7645/Problem-Solving/blob/master/%EB%AC%B8%EC%A0%9C%EC%A7%912-%EB%B3%84%EC%B0%8D%EA%B8%B0/12-%EB%B3%84%EC%B0%8D%EA%B8%B0%2C2522%EB%B2%88.py)
+  - [13-별찍기,2523번.py](https://github.com//Kimdonghyeon7645/Problem-Solving/blob/master/%EB%AC%B8%EC%A0%9C%EC%A7%912-%EB%B3%84%EC%B0%8D%EA%B8%B0/13-%EB%B3%84%EC%B0%8D%EA%B8%B0%2C2523%EB%B2%88.py)
+  - [14-별찍기,2526번.py](https://github.com//Kimdonghyeon7645/Problem-Solving/blob/master/%EB%AC%B8%EC%A0%9C%EC%A7%912-%EB%B3%84%EC%B0%8D%EA%B8%B0/14-%EB%B3%84%EC%B0%8D%EA%B8%B0%2C2526%EB%B2%88.py)
+
 </details>
+
+### 의미있는 문제목록
+
+  - [10-별찍기-시에르핀스키 카펫,2447번.py](https://github.com//Kimdonghyeon7645/Problem-Solving/blob/master/%EB%AC%B8%EC%A0%9C%EC%A7%912-%EB%B3%84%EC%B0%8D%EA%B8%B0/10-%EB%B3%84%EC%B0%8D%EA%B8%B0-%EC%8B%9C%EC%97%90%EB%A5%B4%ED%95%80%EC%8A%A4%ED%82%A4%20%EC%B9%B4%ED%8E%AB%2C2447%EB%B2%88.py)
+  - [11-별찍기-시에르핀스키 삼각형,2448번.py](https://github.com//Kimdonghyeon7645/Problem-Solving/blob/master/%EB%AC%B8%EC%A0%9C%EC%A7%912-%EB%B3%84%EC%B0%8D%EA%B8%B0/11-%EB%B3%84%EC%B0%8D%EA%B8%B0-%EC%8B%9C%EC%97%90%EB%A5%B4%ED%95%80%EC%8A%A4%ED%82%A4%20%EC%82%BC%EA%B0%81%ED%98%95%2C2448%EB%B2%88.py)
