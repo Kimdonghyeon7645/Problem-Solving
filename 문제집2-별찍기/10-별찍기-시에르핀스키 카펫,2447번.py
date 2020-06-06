@@ -18,13 +18,13 @@ def hole(n, r, c):  # c 은 행, r 은 열
     if piece > 1:
         for i in range(3):
             for j in range(3):
-                print('hole 호출!', piece, piece * i, piece * j)
+                # print('hole 호출!', piece, piece * i, piece * j)
                 hole(piece, r + piece * i, c + piece * j)
 
 
 hole(m, 0, 0)
 for i in li:
     for j in i:
-        print(j, end=' ')
+        # print(j, end=' ')
+        print(j, end='')
     print()
-
