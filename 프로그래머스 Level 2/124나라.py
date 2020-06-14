@@ -1,26 +1,37 @@
 # 미완성
+# def solution(n):
+#     i = j = 1
+#     n -= 1
+#     answer = str(n).replace('2', '4').replace('1', '2').replace('0', '1')
+#     if n / 3 >= 1:
+#         while n / (3 ** i) >= 1:
+#             n -= (3 ** i)
+#             i += 1
+#         answer = ['0'] * i
+#         while n // 3 >= 3:
+#             answer[len(answer) - j] = str(n % 3)
+#             n //= 3
+#             j += 1
+#             if n // 3 > 3:
+#                 break
+#         answer[len(answer) - j] = str(n % 3)
+#         j += 1
+#         if n // 3 > 0:
+#             answer[len(answer) - j] = str(n // 3)
+#         answer = ''.join(answer).replace('2', '4').replace('1', '2').replace('0', '1')
+#     return answer
+
+
 def solution(n):
-    i = j = 1
-    n -= 1
-    answer = str(n).replace('2', '4').replace('1', '2').replace('0', '1')
-    if n / 3 >= 1:
-        while n / (3 ** i) >= 1:
-            n -= (3 ** i)
-            i += 1
-        answer = ['0'] * i
-        while n // 3 >= 3:
-            answer[len(answer) - j] = str(n % 3)
-            n //= 3
-            j += 1
-            if n // 3 > 3:
-                break
-        answer[len(answer) - j] = str(n % 3)
-        j += 1
-        if n // 3 > 0:
-            answer[len(answer) - j] = str(n // 3)
-        answer = ''.join(answer).replace('2', '4').replace('1', '2').replace('0', '1')
+    answer = ''
+    w = 1
+    n -= w
+    while n - (3 ** w) >= 0:
+        n -= (3 ** w)
+        w += 1
+    print(n)    # test
     return answer
 
 
-for i in range(1, 100):
-    print(i, '=>', solution(i))
+# for i in range(1, 100):
+#     print(i, '=>', solution(i))
