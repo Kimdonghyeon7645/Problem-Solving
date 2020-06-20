@@ -1,10 +1,21 @@
 def solution(bridge_length, weight, truck_weights):
     answer = 0
     bridge = [0] * bridge_length
-    while truck_weights or bridge.count(0) != len(bridge):
-        print(sum(bridge), weight)
-        bridge = [bridge[i] for i in range(len(bridge)) if i != 0] + ([(truck_weights.pop(0) if truck_weights else 0)] if sum([bridge[i] for i in range(len(bridge)) if i != 0]) + (truck_weights[0] if truck_weights else 0) <= weight else [0])
-        print(bridge)
+    bridge_in = bridge_sum = 0
+    while truck_weights or bridge_in:
+        bridge_in -= bool(bridge[0])
+        bridge_sum -= bridge[0]
+        front = bridge[1:]
+        if truck_weights:
+            if bridge_sum + truck_weights[0] <= weight:
+                bridge = front + [truck_weights.pop(0)]
+                bridge_sum += bridge[-1]
+                bridge_in += 1
+            else:
+                bridge = front + [0]
+        else:
+            bridge = front + [0]
+        print(bridge, bridge_in)
         answer += 1
     return answer
 
