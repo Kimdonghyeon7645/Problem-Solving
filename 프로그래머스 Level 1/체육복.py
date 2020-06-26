@@ -12,3 +12,7 @@ def solution(n, lost, reserve):
                 reserve.remove(mazin)
                 break
     return n - len(lost)
+
+
+# 아래는 테스트 코드
+print(solution(5, [2, 4], [1, 3, 5]))
