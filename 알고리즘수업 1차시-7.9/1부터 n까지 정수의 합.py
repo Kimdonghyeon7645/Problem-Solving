@@ -7,3 +7,7 @@ print(sum_n)
 
 # 내장함수 쓴 버전
 print(sum(range(int(input()) + 1)))
+
+# 가우스 공식 쓴 버전
+n = int(input())
+print(n * (1 + n) // 2)
