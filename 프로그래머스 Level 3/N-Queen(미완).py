@@ -18,12 +18,15 @@ def gogo(li, case, n):
 def solution(n):
     li = [[i, j] for i in range(n) for j in range(n)]
     gogo(li, [], n)
-    print(end, len(end))    # TEST
+    print(len(end))    # TEST
+    for i in end:
+        print(i)
     return len(end)
 
 
-for i in range(2, 5):
-    print(solution(i))
+# for i in range(2, 5):
+#     print(solution(i))
+print(solution(5))
 
 # [p for p in li
 #          if p[0] not in sit[0] and p[1] not in sit[1] and p[1] - p[0] not in sit[2] and p[1] + p[0] not in sit[3]]:
