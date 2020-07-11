@@ -4,12 +4,14 @@
 lower bound 는 ~이상을 왼쪽에서 부터 찾고,
 upper bound 는 ~보다 큰 값을 왼쪽에서 부터 찾는다.
 """
-def upper_bound():
 
+
+def upper_bound():
+    pass
 
 
 def lower_bound():
-
+    pass
 
 
 print()
