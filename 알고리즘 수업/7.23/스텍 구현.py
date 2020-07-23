@@ -24,5 +24,11 @@ class Stack:
             return 0
 
 
-mystack = Stack()
-print(mystack)
+class MyStack(Stack):
+    def run(self):
+        pass
+
+
+st = MyStack()
+
+print(st)
