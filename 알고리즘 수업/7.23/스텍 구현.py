@@ -5,19 +5,19 @@ class Stack:
     def __str__(self):
         return f"현재 스텍의 상태 : {self.stack}"
 
-    def push(self, num):
+    def my_push(self, num):
         self.stack += num
 
-    def pop(self):
+    def my_pop(self):
         return self.stack.pop()
 
-    def top(self):
+    def my_top(self):
         return self.stack[-1]
 
-    def __sizeof__(self):
+    def my_size(self):
         return len(self.stack)
 
-    def empty(self):
+    def my_empty(self):
         if self.stack:
             return 1
         else:
@@ -25,10 +25,23 @@ class Stack:
 
 
 class MyStack(Stack):
-    def run(self):
-        pass
+    def run(self, cmd):
+        if cmd.startswith('push'):
+            return self.stack.my_push(cmd.split()[-1])
+        else:
+            func = 'my_' + cmd
+            return self.stack.func()
 
 
 st = MyStack()
-
+cmds = ''
+# cmds = open(0).read()
+while True:
+    temp = input()
+    if temp:
+        cmds += temp+'\n'
+    else:
+        break
+for cmd in cmds.split():
+    print(st.run(cmd))
 print(st)
