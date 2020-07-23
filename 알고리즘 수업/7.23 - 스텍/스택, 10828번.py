@@ -11,9 +11,15 @@ for cmd in cmds.split('/n'):
     if cmd.startswith('push'):
         stk.append(cmd.split()[1])
     elif cmd.startswith('pop'):
-        print(stk.pop())
+        if cmd:
+            print(stk.pop())
+        else:
+            print(-1)
     elif cmd.startswith('top'):
-        print(stk[-1])
+        if cmd:
+            print(stk[-1])
+        else:
+            print(-1)
     elif cmd.startswith('size'):
         print(len(stk))
     elif cmd.startswith('empty'):
