@@ -1,13 +1,8 @@
 stk = []
-# cmds = open(0).read()
-cmds = ''
-while True:
-    cmd = input()
-    if cmd:
-        cmds += cmd + '/n'
-    else:
-        break
-for cmd in cmds.split('/n'):
+cmds = []
+for i in range(int(input())):
+    cmds.append(input())
+for cmd in cmds:
     if cmd.startswith('push'):
         stk.append(cmd.split()[1])
     elif cmd.startswith('pop'):
