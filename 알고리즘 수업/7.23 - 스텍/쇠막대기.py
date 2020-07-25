@@ -3,3 +3,6 @@ stk = []
 for i in input():
     print(i)
     if i == '(':
+        pass
+    else:
+        pass
