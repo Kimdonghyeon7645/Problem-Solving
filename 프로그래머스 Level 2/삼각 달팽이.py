@@ -5,7 +5,7 @@ def solution(n):
     num = 1
     for i in range(n, 0, -1):
         y_p, x_p = [(1, 0), (0, 1), (-1, -1)][(n-i) % 3]
-        for _ in range(i):
+        for _ in range(i):  
             y = y + y_p
             x = x + x_p
             answer[y][x] = num
