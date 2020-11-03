@@ -1,11 +1,14 @@
+def c(n, r):
+    sum(range(n, n-r-1, -1)) // sum(i for i in range(r, 0, -1))
+
 def solution(clothes):
     answer = dict()
     for v, k in clothes:
-        if k in answer:
-            answer[k].append(v)
-        else:
-            answer.update({k: [v]})
+        answer[k].append(v) if k in answer else answer.update({k: [v]})
     print(answer, len(answer))
+    for i in range(len(answer.keys())):
+
+
     return sum([len(v)+1 for v in answer.values()]) - (0 if len(answer)-1 else 1)
 
 
