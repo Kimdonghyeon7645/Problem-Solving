@@ -20,6 +20,14 @@ def solution(files):
     return [''.join(ele) for ele in sorted(answer, key=lambda x: (x[0].upper(), int(x[1])))]
 
 
+# def solution(files):    # 위같이 정규표현식이 느리다고 쓰지 않는 것보다 지금처럼 정규 표현식을 사용하는 것이 더 빠르다.
+#     import re
+#
+#     return [''.join(i) for i in sorted(map(lambda x: re.match("([a-zA-Z]+)([0-9]+)([^0-9]*)", x).groups(), files),
+#                                        key=lambda m: (m[0].upper(), int(m[1])))]
+
+
 # 테스트 코드
 print(solution(["img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"]))
 print(solution(["img000012345", "img1.png", "img2", "IMG02"]))
+print(solution(["img000012345", "abc123defg123.jpg"]))
