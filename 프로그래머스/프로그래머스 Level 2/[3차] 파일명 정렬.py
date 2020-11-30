@@ -21,5 +21,5 @@ def solution(files):
 
 
 # 테스트 코드
-# print(solution(["img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"]))
+print(solution(["img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"]))
 print(solution(["img000012345", "img1.png", "img2", "IMG02"]))
