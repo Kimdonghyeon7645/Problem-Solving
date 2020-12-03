@@ -42,8 +42,11 @@ def solution(w, h):
 부동 소수점 오차를 해결할 때, 라이브러리를 사용할 수 있으며 대신 성능이 낮아질 수 있다.
 간편하게 오차가 생기는 소수점 아랫 부분에서 숫자를 가지고 놀지말고, 숫자의 자릿수를 높여서 가지고 놀면 오차가 확실히 준다.
 """
+def gcd(a, b): return b if (a == 0) else gcd(b % a, a)
+def wonderful_solution(w, h): return w*h - w - h + gcd(w, h)
 
 
 print(solution(8, 12))
+print(wonderful_solution(8, 12))
 # f = Fraction(f"{8}/{12}")
 # print(f"{(2/3) * 2:.30}", f * 2, math.ceil(f * 2))
