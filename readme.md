@@ -5,7 +5,7 @@
 ![GitHub top language](https://img.shields.io/badge/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%ED%91%B8%EB%8A%94%20%EC%96%B8%EC%96%B4-%ED%8C%8C%EC%9D%B4%EC%8D%AC!(Python)-blue?style=flat-square&logo=Python)
 
 
-## 프로그래머스 (20.12.04. 기준)
+## 프로그래머스 (20.12.08. 기준)
 
 ```markdown
 📦 프로그래머스
@@ -80,7 +80,9 @@
  ┃ ┣ 📜 위장.py
  ┃ ┣ 📜 이진 변환 반복하기.py
  ┃ ┣ 📜 전화번호 목록.py
+ ┃ ┣ 📜 조이스틱.py
  ┃ ┣ 📜 주식가격.py
+ ┃ ┣ 📜 짝지어 제거하기.py
  ┃ ┣ 📜 최댓값과 최솟값.py
  ┃ ┣ 📜 최솟값 만들기.py
  ┃ ┣ 📜 카펫.py
@@ -94,12 +96,13 @@
  ┗ 📁 프로그래머스 Level 3
    ┣ 📜 2 x n 타일링.py
    ┣ 📜 N-Queen.py
+   ┣ 📜 멀리 뛰기.py
    ┣ 📜 베스트앨범.py
    ┣ 📜 종이접기.py
    ┗ 📜 풍선 터트리기(외부도움).py
 ```
 
-## 백준 (20.12.04. 기준)
+## 백준 (20.12.08. 기준)
 
 ```markdown
 📦백준
