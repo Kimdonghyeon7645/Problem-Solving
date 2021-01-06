@@ -17,12 +17,10 @@ def solution(nums):
     choice_num_li = [[[num] for num in nums], [], []]
     for i in range(2):
         for target in choice_num_li[i]:
-            for li in [list(sorted(target + [num])) for num in nums if num not in target]:
-                if li not in choice_num_li[i+1]:
-                    choice_num_li[i+1].append(li)
-    print(choice_num_li[-1])
+            choice_num_li[i+1].extend(list(sorted(target + [num])) for num in nums if num not in target)
+    # print(choice_num_li[-1])
     made_num_li = [sum(num) for num in choice_num_li[-1]]
-    print(made_num_li)
+    # print(made_num_li)
     answer = len(made_num_li)
     for num in made_num_li:
         for i in range(2, int(num ** 1/2)+1):
