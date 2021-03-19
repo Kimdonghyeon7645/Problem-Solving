@@ -1,0 +1,12 @@
+cheese,ice cube,snowman,water drip,light bulb,heart,eye
+eye,snowman,treble clef,ice cube,exclamation point,scissors,zebra,red lips
+ice cube,zebra,light bulb,red lips,treble clef,snowman,daisy flower
+light bulb,treble clef,snowman,eye,daisy flower,heart,zebra
+exclamation point,zebra,light bulb,cheese,daisy flower,ice cube
+treble clef,zebra,daisy flower,snowman,water drip,exclamation point,light bulb
+red lips,daisy flower,exclamation point,cheese,eye,zebra
+heart,zebra,scissors,daisy flower,snowman,exclamation point
+red lips,exclamation point,water drip,scissors,ice cube
+water drip,light bulb,eye,red lips,heart
+cheese,snowman,daisy flower,exclamation point,ice cube,water drip
+red lips,scissors,heart,ice cube,daisy flower,exclamation point

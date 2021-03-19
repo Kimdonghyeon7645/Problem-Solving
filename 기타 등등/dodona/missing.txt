@@ -1,0 +1,12 @@
+apple,clock,cactus,daisy flower
+candle,clock,target,baby bottle
+target,anchor,cactus,clown
+bomb,baby bottle,apple,anchor
+candle,apple,clown,chess knight
+carrot,target,cheese,apple
+clock,clown,bomb,cheese
+chess knight,anchor,carrot,clock
+cheese,cactus,chess knight,baby bottle
+carrot,bomb,cactus,candle
+bomb,daisy flower,target,chess knight
+daisy flower,anchor,cheese,candle
