@@ -35,7 +35,7 @@ if __name__ == '__main__':
     c2s = card2symbols('기타 등등/dodona/cards.txt')
     print(c2s[1])
     print(c2s[2])
-    print(c2s[3])1
+    print(c2s[3])
 
     # common_symbols
     print(common_symbols(1, 2, c2s))
