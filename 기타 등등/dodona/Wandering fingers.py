@@ -27,7 +27,7 @@ def read_dictionary(file: str) -> dict:
 def wanderings(word: str, word_dict: dict) -> set:
     result = set()
     if outside(word) in word_dict.keys():
-        result = set(ch for ch in word_dict[outside(word)] if issubword(ch, word))
+        result = set(outside(word)[0] + ch + outside(word)[-1] for ch in word_dict[outside(word)] if issubword(ch, word))
 
     return result
 
