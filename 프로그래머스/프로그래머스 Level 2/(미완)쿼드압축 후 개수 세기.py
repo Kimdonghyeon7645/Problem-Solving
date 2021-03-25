@@ -4,14 +4,7 @@ def solution(arr):
     :return: 쿼드 트리로 압축했을 때 0과 1의 개수
     (4개를 비교했을 때 서로 다르면, 3을 부여해서 다음번 비교에 무시하게 함)
     """
-    # q = int(len(arr) ** (1/2))
-    # print(q)
-    # for su in range(1, q+1):
-    #     size = 2 ** su
-    #     for x in range(q // su):
-    #         for y in range(q // su):
-    #             print(x * size, y * size, size)
-
+    for i in range(1, len()):
 
 
 
