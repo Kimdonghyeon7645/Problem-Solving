@@ -7,16 +7,12 @@ class Heater:
         self.minimum = float(minimum)
         self.maximum = float(maximum)
 
-    def __str__(self):
-        return f"{self.name}: current temperature: {round(self.temp, 1)}; allowed min: {self.minimum}; allowed max: {self.maximum}"
-
-    def __repr__(self):
-        return f"Heater('{self.name}', {self.temp}, {self.minimum}, {self.maximum})"
+    def __str__(self): return f"{self.name}: current temperature: {round(self.temp, 1)}; allowed min: {self.minimum}; allowed max: {self.maximum}"
+    def __repr__(self): return f"Heater('{self.name}', {self.temp}, {self.minimum}, {self.maximum})"
+    def temperature(self): return self.temp
 
     def change_temperature(self, num):
-        self.temp = self.temp+num if self.minimum < self.temp+num < self.maximum else (self.minimum if 1 else self.maximum)
-
-    def temperature(self): return self.temp
+        self.temp = self.temp+num if self.minimum < self.temp+num < self.maximum else (self.minimum if self.temp+num < self.minimum else self.maximum)
 
 
 if __name__ == '__main__':
