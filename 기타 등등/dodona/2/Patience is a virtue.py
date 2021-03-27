@@ -39,6 +39,7 @@ class PatienceSorter:       # class 클래스명 : 클래스 선언
 
     def remove_items(self):
         return tuple(self.remove_item() for _ in range(self.item_count()))
+        # _ : for 문에서 리스트의 요소를 하나씩 빼낼 때, 빼낸 요소가 필요없을 경우(=변수에 담을 필요가 없는 경우), _으로 처리합니다.
 
 
 if __name__ == '__main__':
