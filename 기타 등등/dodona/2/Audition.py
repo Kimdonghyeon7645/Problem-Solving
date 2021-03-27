@@ -4,18 +4,21 @@ class Collection:
     def __init__(self, collection: list):
         self.collection = list()
         for ele in collection:
-            self.collection.extend(range(ele[0], ele[1]+1)) if type(ele) in [list, tuple, set] else self.collection.append(ele)
+            if type(ele) in [list, tuple, set] and len(ele) > 1:
+                self.collection.extend(range(ele[0], ele[1]+1))
+            else:
+                self.collection.append(ele[0] if type(ele) in [list, tuple, set] else ele)
+        self.collection = list(set(self.collection))
         self.collection.sort()
 
     def _to_normal_form(self):
         if len(self.collection) < 2:
-            return [self.collection]
+            return self.collection
 
         result = ([[self.collection[0]]] if self.collection[0] + 1 is self.collection[1] else [self.collection[0]])
         for i in range(1, len(self.collection) - 1):
             if self.collection[i - 1] + 1 is not self.collection[i]:
-                result.append(
-                    [self.collection[i]] if self.collection[i] + 1 is self.collection[i + 1] else self.collection[i])
+                result.append([self.collection[i]] if self.collection[i] + 1 is self.collection[i + 1] else self.collection[i])
             elif self.collection[i] + 1 is not self.collection[i + 1]:
                 result[-1].append(self.collection[i])
         (result[-1] if self.collection[-2] + 1 is self.collection[-1] else result).append(self.collection[-1])
@@ -75,3 +78,9 @@ if __name__ == '__main__':
     print(F2)
     FF = Collection({(12, 14), (4, 6), (13, 15), (9, 10), (3, 8), 19})
     print(FF)
+    FF2 = Collection([1, 1, 2, 3])
+    print(FF2)
+    FFF = Collection([[10]])
+    print(FFF)
+    FFF2 = Collection([1])
+    print(FFF2)
