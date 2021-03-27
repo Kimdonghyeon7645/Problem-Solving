@@ -4,7 +4,7 @@ class Collection:
     def __init__(self, collection: list):
         self.collection = list()
         for ele in collection:
-            self.collection.extend(range(ele[0], ele[1]+1)) if type(ele) is list else self.collection.append(ele)
+            self.collection.extend(range(ele[0], ele[1]+1)) if type(ele) in [list, tuple, set] else self.collection.append(ele)
         self.collection.sort()
 
     def _to_normal_form(self):
@@ -23,9 +23,9 @@ class Collection:
         return result
 
     def __len__(self): return len(self.collection)
-    def numbers(self): print("{" + str(self.collection)[1:-1] + "}", end="")
+    def numbers(self): return set(self.collection)
     def __str__(self): return str(self._to_normal_form())
-    def normalform(self): print(self._to_normal_form(), end="")
+    def normalform(self): return self._to_normal_form()
     def __repr__(self): return f"Collection({self._to_normal_form()})"
 
     def __sub__(self, other): return Collection([i for i in self.collection if i not in other.collection])
@@ -43,9 +43,9 @@ class Collection:
 if __name__ == '__main__':
 
     A = Collection([33, [27, 30], 32, 25, [20, 24], 31, 19])
-    A.numbers()
+    print(A.numbers())
     print(len(A))
-    A.normalform()
+    print(A.normalform())
     print(A)
     print(A.__repr__())
 
@@ -67,3 +67,11 @@ if __name__ == '__main__':
     print(C >= D)
     print(D > C)
     print(D >= C)
+
+    # list 말고도 다른 시퀀스 자료형까지
+    F1 = Collection([(17, 20), 4, [1, 4], [8, 11]])
+    print(F1)
+    F2 = Collection([9, [14, 15], 10, (5, 6), [7, 12]])
+    print(F2)
+    FF = Collection({(12, 14), (4, 6), (13, 15), (9, 10), (3, 8), 19})
+    print(FF)
