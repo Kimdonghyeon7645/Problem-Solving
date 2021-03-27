@@ -2,11 +2,14 @@
 
 class Heater:
     def __init__(self, name, temperature=10.0, minimum=0.0, maximum=100.0):
+        # 인자=값 : 디폴트 인자라고 해서, 함수 호출시 인자값을 넘겨주지 않으면 여기서 대입해준 값으로 변수의 값을 저장할 수 있습니다.
+        # -> 말그대로 매개변수에 값을 넘겨주지 않았을 때 가지고 있게될, '매개변수의 기본값' 입니다.
         self.name = name
         self.temp = float(temperature)
         self.minimum = float(minimum)
         self.maximum = float(maximum)
 
+    # f string : f"" 와 같이 문자열 앞에 f를 붙이면, {} 안에 변수명을 넣어 변수의 값을 문자열에 포함시킬 수 있습니다.
     def __str__(self): return f"{self.name}: current temperature: {round(self.temp, 1)}; allowed min: {self.minimum}; allowed max: {self.maximum}"
     def __repr__(self): return f"Heater('{self.name}', {self.temp}, {self.minimum}, {self.maximum})"
     def temperature(self): return self.temp
